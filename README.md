@@ -1,4 +1,4 @@
-# javascript-app-3
+# javascript-app-35
 
 ### **Key**:
 
@@ -13,9 +13,7 @@
 
 ### **Summary**:
 
-- [x] Create site
-- [x] Add sidebar
-- [x] Add logo
+This project creates a simple node.js app. 
 
 ### **Instructions**
 
@@ -28,20 +26,7 @@ npm init -y
 2. Create index.js
 
 <pre>
-const http = require('http');
 
-const hostname = '127.0.0.1';
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, Node.js!');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
 </pre>
 
 3. Run the Node.js app
